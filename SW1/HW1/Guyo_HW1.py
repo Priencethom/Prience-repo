@@ -15,7 +15,6 @@ while user_input != "*":
     
     for d_str in list:
         dollar = float(d_str.strip())
-        # Call the function and unpack the returned tuple
         inr, gbp, cny = converter(dollar)
         print(f"{dollar}\t\t {inr:.2f}\t\t{gbp:.2f}\t\t\t{cny:.2f}")
  
